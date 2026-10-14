@@ -1,6 +1,6 @@
 # accounts-service
 
-Microservicio **accounts** del parcial (Integrante 2). Hace los **pasos 6 y 7** del diagrama:
+Microservicio **accounts** del parcial 
 
 1. **Paso 6** – Recibe `POST /api/accounts` (lo llama `users` de forma *sync*) y guarda la cuenta en la tabla `accounts` de TiDB.
 2. **Paso 7** – Deja en el tópico Kafka `notificaciones` el mensaje de **"cuenta creada"** para que `notifiers` envíe el correo (*async*).
